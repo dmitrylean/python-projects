@@ -1,0 +1,86 @@
+# === All ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.env
+.env.local
+.env.*.local
+
+# === Node.js / React / Astro ===
+node_modules/
+dist/
+build/
+.cache/
+.npm/
+.pnpm/
+.yarn/
+.yarn-cache/
+.yarn-integrity
+.next/
+.svelte-kit/
+.vercel/
+.netlify/
+astro.config.mjs.timestamp*
+
+# === WordPress ===
+# Ядро WordPress
+wp-admin/
+wp-includes/
+
+# Cashe
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/wflogs/
+wp-content/uploads/cache/
+wp-content/uploads/wpcf7_captcha/
+
+# Пользовательские загрузки (оставь, если нужно)
+# wp-content/uploads/
+
+# Конфиги и секреты
+wp-config.php
+wp-config-*.php
+
+# Logs
+*.log
+
+# === Python ===
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.spec
+
+# Test files
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Trash IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === System files ===
+ehthumbs.db
+Icon?
